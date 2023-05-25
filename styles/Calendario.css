@@ -1,0 +1,39 @@
+.slider{
+  margin: 10px auto;
+  width: 50%;
+      
+  }
+  
+  .img-box img{
+      width: 150%
+  }
+  
+  .btn{
+      border:none;
+      outline:none;
+      background:#fcc405;
+      padding:10px 20px;
+      font-size:20px;
+      color:#000000;
+      cursor:pointer;
+      margin:10px auto;
+  }
+  
+  .btn:hover{
+      background:#f7fcb6;
+  }
+  
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  img{
+  border:none !important;
+  }

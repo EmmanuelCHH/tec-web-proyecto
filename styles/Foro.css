@@ -1,0 +1,280 @@
+.Titulo-card{
+    width:1510px;
+    height:200px;
+    background-color: crimson;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Interior-card{
+    width:1466px;
+    height:160px;
+    background-color:gold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Anexo-card{
+    width:1490px;
+    height:42px;
+    background-color:silver;
+    margin-left: 20px;
+}
+
+.Dentro-card{
+    width:1425px;
+    height:124px;
+    background-color:azure;
+    padding: 5px;
+    margin: 5px; 
+    text-align: center;
+    font-size: 145%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Logo-card{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.btn{
+    border:1.85px solid black;
+    outline:100px;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position:absolute;
+    top: 50.4%;
+    left: 22.7%;
+    z-index: 0;
+}
+
+.btn:hover{
+    background:#451a11;
+}
+
+.btn-av{
+    border:1.85px solid black;
+    outline:none;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.4%;
+    left: 28.2%;
+}
+
+.btn-av:hover{
+    background:#451a11;
+}
+
+.btn-ay{
+    border:1.85px solid black;
+    outline:none;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.4%;
+    left: 34.4%;
+}
+
+.btn-ay:hover{
+    background:#451a11;
+}
+
+.btn-pr{
+    border:1.85px solid black;
+    outline:none;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.4%;
+    left: 40.7%;
+}
+
+.btn-pr:hover{
+    background:#451a11;
+}
+
+.btn-su{
+    border:1.85px solid black;
+    outline:none;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.4%;
+    left: 48.7%;
+}
+
+.btn-su:hover{
+    background:#451a11;
+}
+
+.btn-op{
+    border:1.85px solid black;
+    outline:none;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.4%;
+    left: 57.7%;
+}
+
+.btn-op:hover{
+    background:#451a11;
+}
+
+.btn-imp{
+    border:1.85px solid black;
+    outline:none;
+    background:#ad2103;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:white;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.4%;
+    left: 70.2%;
+}
+
+.btn-imp:hover{
+    background:#451a11;
+}
+
+.btn-new{
+    border:none;
+    outline:none;
+    background:khaki;
+    padding:10px 20px;
+    font-size:20.65977px;
+    color:black;
+    cursor:pointer;
+    margin:10px auto;
+    position: absolute;
+    top: 50.7%;
+    left: 59.2%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Search-card{
+width: 1435px;
+height: 100px;
+margin-bottom: 1250px;
+margin-top: -0px;
+font-size: large;
+}
+
+.Title-card{
+    width: 1490px;
+    height: 100px;
+    margin-bottom:50px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-color: black;
+    }
+
+    
+.Post-card{
+    width: 1490px;
+    height: -500px;
+    margin-left: 10px;
+    }
+
+.Bull-img{
+    margin-right: 30px;
+    margin-top: -40px;
+    margin-left: -5px;
+    
+    margin-bottom: 21px;
+}
+
+.Bull-img-2{
+    margin-right: 0px;
+    margin-top: -40px;
+    margin-bottom: 21px;
+}
+
+.Bull-img-3{
+    margin-right: 3px;
+    margin-top: -0px;
+    margin-bottom: 1px;
+}
+
+.Bull-img-4{
+    margin-right: 100px;
+    margin-top: -470px;
+    margin-bottom: 21px;
+}
+
+.Logo-img{
+    margin-left: -110px;
+    margin-right: 50px;
+    margin-top: -40px;
+    margin-bottom: 21px;
+}
+
+.Bull-img-5{
+    margin-left: 300px;
+    margin-top: -470px;
+    margin-bottom: 21px;
+}
+
+.Bull-img-6{
+    margin-left: 30px;
+    margin-top: -470px;
+    margin-bottom: 21px;
+}
+
+.Bull-img-7{
+    margin-left: 30px;
+    margin-top: -470px;
+    margin-bottom: 21px;
+}
+
+.Bull-img-8{
+    margin-left: 30px;
+    margin-top: -470px;
+    margin-bottom: 28px;
+}
+
+.Logo-img-2{
+    margin-left: 50px;
+    margin-right: -110px;
+    margin-top: -470px;
+    margin-bottom: 21px;
+}
+
+.Tabla-img{
+    margin-bottom: 500px;
+}
+
+.Clip-img{
+    margin-bottom: -1px;
+    margin-left: 855px;
+    margin-right: 30px;
+}

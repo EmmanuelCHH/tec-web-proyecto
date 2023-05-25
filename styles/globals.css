@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.T1H{
+  font-size: 58px;
+  text-align: center;
+  color: #F2B023;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.T2H{
+  font-size: 29px;
+  text-align: center;
+  color: #F2B023;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.navbar{
+  background-color: #03226A;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.menu-bars{
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+.nav-menu{
+  background-color: #03226A;
+  width: 180px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 750ms;
+}
+.nav-menu.active{
+  left: 0;
+  transition: 350ms;
+}
+.nav-text{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+.nav-text a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+.nav-text a:hover{
+  background-color:#9F2222;
+}
+.nav-menu-items{
+  width: 100%;
+}
+.navbar-toggle{
+  background-color:#03226A;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span{
+  margin-left: 16px;
+}
+.Bienvenidos{
+  color: #ff0000;
+  font-size: 64px;
+  padding: 25px 0px 0px 0px;
+  text-align:center;
+  
+}
+.Subtitulo{
+  font-size: 34px;
+  padding: 25px 0px 0px 180px; 
+}
+.texto-comun{
+  font-size: 24px;
+  padding: 15px 180px 0px 180px; 
+  text-align: justify;
+}

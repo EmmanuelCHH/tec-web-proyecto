@@ -1,0 +1,67 @@
+import React, {useState} from "react";
+import { StyledContainer, StyledSubTitle, colors } from '@/styles/styles';
+import { Button, Container, Grid, Paper, TextField, paperClasses, Avatar } from "@mui/material";
+import { styled } from '@mui/material/styles';
+import Link from 'next/link';
+const CustomButton = styled(Button)(({ theme }) => ({
+  borderRadius: theme.shape.borderRadius,
+  display: 'inline-block',
+  color: '#F2B023',
+  borderColor: '#F2B023',
+  '&:hover': {
+    backgroundColor: '#F2B023',
+    color: '#FFFFFF',
+    borderColor: '#F2B023'
+  },
+}));
+const paperStyle={padding: 20, height: '70vh', width:280, margin: "20px auto"};
+
+const Login = () => {
+    const [usernameInput, setUsername] = useState('');
+    const [passwordInput, setPassword] = useState('');
+    return (
+       <StyledContainer>
+        <div >
+            <Paper elevation={10} style={paperStyle} className="flex flex-col items-center">
+            <Avatar
+             sx={{ width: 80, height: 80, marginBottom: 1, mt: 0 }}
+             src="/assets/logo.png"
+            />
+            <StyledSubTitle color={colors.dark3} size={29}>
+                LogIn
+            </StyledSubTitle>   
+
+            <TextField
+            margin="normal" 
+            label='Usuario' 
+            variant="filled"
+            value={usernameInput}
+            onChange={e=>setUsername(e.target.value)}
+            placeholder="Ingresa tu Nombre Usuario" 
+            className="form-group"
+            fullWidth required/>
+            <TextField 
+            margin="normal" 
+            label='Contraseña' 
+            variant="filled"
+            value={passwordInput}
+            onChange={e=>setPassword(e.target.value)}
+            placeholder="Ingresa tu Contraseña"  
+            type="password" 
+            className="form-group"
+            fullWidth required 
+            />  
+
+            <div className="mt-7"> {/* Separación entre el TextField y el CustomButton */}
+            <Link href="/inicio" passHref>
+            <CustomButton variant="outlined" size="large" className="text-3xl rounded-full">
+                Login
+            </CustomButton>
+            </Link>
+            </div>
+            </Paper>
+        </div>
+        </StyledContainer> 
+    )
+ }
+ export default Login;
