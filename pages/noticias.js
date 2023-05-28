@@ -55,7 +55,7 @@ const Noticias = () =>{
                                 // 16:9
                                 pt: '56.25%',
                               }}
-                            image="/assets/n2.jpg"
+                            image="/assets/n4.jpg"
                             title="victoria bisontes voleibol"
                         />
                         <CardContent sx={{ flexGrow: 1 }}>
@@ -63,7 +63,7 @@ const Noticias = () =>{
                           
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                           
+                                Clausuran con Exito InnovaTecNM 2023
                             </Typography>
                         </CardContent>
                         <CardActions>
@@ -78,15 +78,15 @@ const Noticias = () =>{
                                 // 16:9
                                 pt: '56.25%',
                               }}
-                            image="/assets/n2.jpg"
-                            title="victoria bisontes voleibol"
+                            image="/assets/n3.jpg"
+                            title="innovatec"
                         />
                         <CardContent sx={{ flexGrow: 1 }}>
                             <Typography gutterBottom variant="h5" component="div">
                                 
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
- 
+                               Equipo de fútbol soccer femenil del Tec Chihuahua 2 Subcampeon de los Juegos Prenacionales 2023
                             </Typography>
                         </CardContent>
                         <CardActions>

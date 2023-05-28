@@ -1,10 +1,14 @@
 import SideBar from "./SideBar";
-
+import { Paper, Box, Container } from "@mui/material";
+const paperStyle={padding: 10, height: '87vh', width:1080, margin: "20px auto"};
 
 const inicio = () =>{
     return(
         <div >
             <SideBar/>
+
+
+            
             <h1 className="Bienvenidos">Bienvenidos</h1>
             <h2 className="Subtitulo">Bienvenido</h2>
             <p className="texto-comun">Como miembro del Instituto Tecnológico de Chihuahua II, ahora tienes acceso a 
@@ -16,6 +20,8 @@ const inicio = () =>{
             foro oficial.</p>
             <p className="texto-comun">Para iniciar, selecciona alguno de los módulos disponibles en 
             la barra izquierda de la pantalla.</p>
+
+
         </div>
     )
 }

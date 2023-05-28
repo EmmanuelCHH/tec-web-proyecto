@@ -1,14 +1,17 @@
+
+
+
 .Titulo-card{
-    width:1510px;
-    height:200px;
+    width:1520px;
+    height: 150px;
     background-color: crimson;
-    padding: 10px;
-    margin: 10px;
+    padding:0.5%;
+    margin: 0.5%;
 }
 
 .Interior-card{
-    width:1466px;
-    height:160px;
+    width:1480px;
+    height:115px;
     background-color:gold;
     padding: 10px;
     margin: 10px;
@@ -22,14 +25,14 @@
 }
 
 .Dentro-card{
-    width:1425px;
-    height:124px;
+    width:1450px;
+    height:85px;
     background-color:azure;
     padding: 5px;
     margin: 5px; 
     text-align: center;
-    font-size: 145%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:270%;
+    font-weight: bolder;
 }
 
 .Logo-card{
@@ -184,9 +187,10 @@
 .Search-card{
 width: 1435px;
 height: 100px;
-margin-bottom: 1250px;
-margin-top: -0px;
+margin-left:4.8%;
+margin-top:-75px;
 font-size: large;
+position: relative;
 }
 
 .Title-card{
@@ -205,72 +209,26 @@ font-size: large;
     margin-left: 10px;
     }
 
-.Bull-img{
-    margin-right: 30px;
-    margin-top: -40px;
-    margin-left: -5px;
-    
-    margin-bottom: 21px;
-}
-
-.Bull-img-2{
-    margin-right: 0px;
-    margin-top: -40px;
-    margin-bottom: 21px;
-}
-
-.Bull-img-3{
-    margin-right: 3px;
-    margin-top: -0px;
-    margin-bottom: 1px;
-}
-
-.Bull-img-4{
-    margin-right: 100px;
-    margin-top: -470px;
-    margin-bottom: 21px;
-}
 
 .Logo-img{
-    margin-left: -110px;
-    margin-right: 50px;
-    margin-top: -40px;
-    margin-bottom: 21px;
-}
-
-.Bull-img-5{
-    margin-left: 300px;
-    margin-top: -470px;
-    margin-bottom: 21px;
-}
-
-.Bull-img-6{
-    margin-left: 30px;
-    margin-top: -470px;
-    margin-bottom: 21px;
-}
-
-.Bull-img-7{
-    margin-left: 30px;
-    margin-top: -470px;
-    margin-bottom: 21px;
-}
-
-.Bull-img-8{
-    margin-left: 30px;
-    margin-top: -470px;
-    margin-bottom: 28px;
+margin-right: -0.15%;
+margin-left: 96.5%;
+margin-top: -145px;
+margin-bottom: 125px;
+position: relative;
 }
 
 .Logo-img-2{
-    margin-left: 50px;
-    margin-right: -110px;
-    margin-top: -470px;
-    margin-bottom: 21px;
+margin-right: 84%;
+margin-left: -0.15%;
+margin-top: -52px;
+margin-bottom: 95px;
 }
 
 .Tabla-img{
-    margin-bottom: 500px;
+margin-top: -50%;
+margin-bottom: 86%;
+position: absolute;
 }
 
 .Clip-img{

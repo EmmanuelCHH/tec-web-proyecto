@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 
 // Importa tu archivo de estilos CSS personalizado
 import SideBar from './SideBar';
+import Link from 'next/link';
 
-const Materias = () => {
+import '@/components/M.css'
+const materias = () => {
   const [frameSrc, setFrameSrc] = useState(null); // Estado para almacenar la URL del frame
 
   // Array de las materias que llevas
@@ -17,7 +19,6 @@ const Materias = () => {
   // Función para manejar el clic en una materia
   const handleClick = (materiaId) => {
     console.log(`Haz clic en la materia con ID ${materiaId}`);
-    // Aquí puedes agregar la lógica para redirigir a otro frame o realizar cualquier otra acción deseada
   };
 
   const openFrame = () => {
@@ -56,6 +57,9 @@ const Materias = () => {
             <h2 style={{ textAlign: 'center' }}>{materia.profe}</h2>
 
           </div>
+          <Link href="/materias2">
+              <a className="details-link" onClick={() => handleClick(materia.id)}>Ver más detalles</a>
+            </Link>
           </div>
           
         ))}
@@ -81,4 +85,4 @@ const Materias = () => {
   );
 };
 
-export default Materias;
+export default materias;

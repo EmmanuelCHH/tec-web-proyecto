@@ -8,24 +8,9 @@ const foro2 = () =>{
             <ul className="Titulo-card">  
             <ul className="Interior-card">
             <ul className="Dentro-card">
-            <h1> INSTITUTO TECNOLÓGICO DE CHIHUAHUA II</h1>
-                <h1><b>FORO OFICIAL</b></h1>
-                <img src="/assets/logo.png" width={110} height={110} className="Logo-img"/>
-
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img"/>
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-2"/>
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-3"/>
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-4"/>
-
-                
-
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-5"/>
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-6"/>
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-7"/>
-                <img src="/assets/bisonte.png" width={50} height={50} className="Bull-img-8"/>
-
-                <img src="/assets/logo.p" width={110} height={110} className="Logo-img-2"/>
-
+              <h1>FORO OFICIAL DE INSTITUTO TECNOLÓGICO DE CHIHUAHUA II</h1>
+            <img src="/assets/bisonte.png" width={50} height={50} className="Logo-img-2"/>
+            <img src="/assets/bisonte.png" width={50} height={50} className="Logo-img"/>
             </ul>
             </ul>
             </ul>

@@ -1,8 +1,12 @@
-import React, {useState} from "react";
+
+import React, { useState } from "react";
 import { StyledContainer, StyledSubTitle, colors } from '@/styles/styles';
-import { Button, Container, Grid, Paper, TextField, paperClasses, Avatar } from "@mui/material";
+import { Button, Grid, Paper, TextField, Avatar } from "@mui/material";
 import { styled } from '@mui/material/styles';
 import Link from 'next/link';
+
+
+
 const CustomButton = styled(Button)(({ theme }) => ({
   borderRadius: theme.shape.borderRadius,
   display: 'inline-block',
@@ -14,54 +18,64 @@ const CustomButton = styled(Button)(({ theme }) => ({
     borderColor: '#F2B023'
   },
 }));
-const paperStyle={padding: 20, height: '70vh', width:280, margin: "20px auto"};
+
+const paperStyle = {
+  padding: "20px",
+  minHeight: '70vh',
+  width: "280px",
+  margin: "20px auto",
+};
+
 
 const Login = () => {
-    const [usernameInput, setUsername] = useState('');
-    const [passwordInput, setPassword] = useState('');
-    return (
-       <StyledContainer>
-        <div >
-            <Paper elevation={10} style={paperStyle} className="flex flex-col items-center">
-            <Avatar
-             sx={{ width: 80, height: 80, marginBottom: 1, mt: 0 }}
-             src="/assets/logo.png"
-            />
-            <StyledSubTitle color={colors.dark3} size={29}>
-                LogIn
-            </StyledSubTitle>   
 
-            <TextField
-            margin="normal" 
-            label='Usuario' 
+  return (
+    <StyledContainer>
+      <div>
+        <Paper elevation={10} style={paperStyle} className="flex flex-col items-center">
+          <Avatar
+            sx={{ width: 80, height: 80, marginBottom: 1, mt: 0 }}
+            src="/assets/logo.png"
+          />
+          <StyledSubTitle color={colors.dark3} size={29}>
+            LogIn
+          </StyledSubTitle>
+
+          <TextField
+            margin="normal"
+            label='Usuario'
             variant="filled"
             value={usernameInput}
-            onChange={e=>setUsername(e.target.value)}
-            placeholder="Ingresa tu Nombre Usuario" 
+            onChange={e => setUsername(e.target.value)}
+            placeholder="Ingresa tu Nombre Usuario"
             className="form-group"
-            fullWidth required/>
-            <TextField 
-            margin="normal" 
-            label='Contraseña' 
+            fullWidth
+            required
+          />
+          <TextField
+            margin="normal"
+            label='Contraseña'
             variant="filled"
             value={passwordInput}
-            onChange={e=>setPassword(e.target.value)}
-            placeholder="Ingresa tu Contraseña"  
-            type="password" 
+            onChange={e => setPassword(e.target.value)}
+            placeholder="Ingresa tu Contraseña"
+            type="password"
             className="form-group"
-            fullWidth required 
-            />  
+            fullWidth
+            required
+          />
 
-            <div className="mt-7"> {/* Separación entre el TextField y el CustomButton */}
+          <div className="mt-7"> {/* Separación entre el TextField y el CustomButton */}
             <Link href="/inicio" passHref>
-            <CustomButton variant="outlined" size="large" className="text-3xl rounded-full">
+              <CustomButton variant="outlined" size="large" className="text-3xl rounded-full" >
                 Login
-            </CustomButton>
+              </CustomButton>
             </Link>
-            </div>
-            </Paper>
-        </div>
-        </StyledContainer> 
-    )
- }
- export default Login;
+          </div>
+        </Paper>
+      </div>
+    </StyledContainer>
+  );
+};
+
+export default Login;

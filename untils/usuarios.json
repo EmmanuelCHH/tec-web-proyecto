@@ -1,0 +1,33 @@
+
+[
+        {
+            "_id": 1,
+            "name": "Emmanuel Chavira Holguin",
+            "numero de control": 19550730,
+            "PP":"/assets/1.jpg",
+            "semestre": 8,
+            "correo_ins": "L19550730@chihuahua2.tecnm.mx",
+            "carrera": "Ingenieria en Sistemas Computacionales",
+            "rango": "estudiante"
+        },
+        {
+            "_id": 2,
+            "name": "Gabriel",
+            "numero de control": 19551842,
+            "PP":"/assets/PP1.jpg",
+            "semestre": 8,
+            "correo_ins": "L19551842@chihuahua2.tecnm.mx",
+            "carrera": "Ingenieria en Sistemas Computacionales",
+            "rango": "estudiante"
+        },
+        {
+            "_id": 3,
+            "name": "Victoria",
+            "numero de control": 19542857,
+            "PP":"/assets/PP2.jpg",
+            "semestre": 8,
+            "correo_ins": "L19542857@chihuahua2.tecnm.mx",
+            "carrera": "Ingenieria en Sistemas Computacionales",
+            "rango": "estudiante"
+        }
+]
