@@ -1,0 +1,66 @@
+/* Estilos generales */
+.materias2-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 33.5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 0px;
+    background-color:  #bfbfbf;
+
+
+  }
+  
+  .sidebar li.active {
+    background-color:  #bfbfbf;
+  }
+  
+  .content h1 {
+    font-size: 34px;
+    font-weight: Arial;
+    margin-bottom: 1px;
+    text-align: center;
+    background-color:  white;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+
+    .tareas-container {
+      flex: 1;
+      max-width: 400px;
+      overflow: auto;
+    }
+    
+  
+   
+  }
+  .curso-disponible {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  
+  
+
+  }
+  .align-left {
+    float: left;
+    margin-right: 10px; 
+  }
+  

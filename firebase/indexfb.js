@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBsXN0apooT0q445CT2WQYyx18bTyOwHig",
@@ -15,6 +15,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);
+const bd = getFirestore(app);
+const todosCol = collection(bd, 'todos');
+const snapshot = await getDocs(todosCol);
 
 onAuthStateChanged(auth, user =>{
     if(user != null){

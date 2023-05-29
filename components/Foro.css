@@ -7,7 +7,7 @@
 }
 
 .Interior-card{
-    width:1470px;
+    width:1480px;
     height:115px;
     background-color:gold;
     padding: 10px;
@@ -22,13 +22,13 @@
 }
 
 .Dentro-card{
-    width:1440px;
+    width:1450px;
     height:85px;
     background-color:azure;
     padding: 5px;
     margin: 5px; 
     text-align: center;
-    font-size:240%;
+    font-size:270%;
     font-weight: bolder;
 }
 

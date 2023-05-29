@@ -40,8 +40,8 @@ const materias = () => {
       <div className="materias-container">
         
         {materias.map((materia) => (
+          <Link href="/materias2" key={materia.id} passHref>
           <div
-            key={materia.id}
             className="materia-card"
             onClick={() => handleClick(materia.id)}
           >
@@ -50,15 +50,13 @@ const materias = () => {
               alt={`Imagen ${materia.nombre}`}
               style={{ width: '100px', height: '100px' }}
             />
-             <div className="materia-info">
-            <h2 style={{ textAlign: 'center' }}>{materia.nombre}</h2>
-            <h2 style={{ textAlign: 'center' }}>{materia.hora}</h2>
-            <h2 style={{ textAlign: 'center' }}>{materia.profe}</h2>
-
+            <div className="materia-info">
+              <h2 style={{ textAlign: 'center' }}>{materia.nombre}</h2>
+              <h2 style={{ textAlign: 'center' }}>{materia.hora}</h2>
+              <h2 style={{ textAlign: 'center' }}>{materia.profe}</h2>
+            </div>
           </div>
-
-          </div>
-          
+        </Link>
         ))}
          <div className="man">
     <h1 style={{ textAlign: 'center', fontSize: '40px' }}>Mantente conectado con:</h1>
@@ -83,3 +81,7 @@ const materias = () => {
 };
 
 export default materias;
+
+
+
+
