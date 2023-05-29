@@ -1,3 +1,4 @@
+import {StyleButtonNew} from "@/styles/styles";
 import React, {useState} from 'react';
 import Link from "next/link";
 /*import Bisonte from './../assets/bisonte.png';
@@ -7,17 +8,7 @@ import { BsFillCaretRightSquareFill } from "react-icons/bs";
 import { TextField, Button } from "@mui/material";
 import SideBar from "./SideBar";
 import { styled } from '@mui/material/styles';
-const CustomButton = styled(Button)(({ theme }) => ({
-  borderRadius: theme.shape.borderRadius,
-  display: 'inline-block',
-  color: '#F2B023',
-  borderColor: '#F2B023',
-  '&:hover': {
-    backgroundColor: '#F2B023',
-    color: '#FFFFFF',
-    borderColor: '#F2B023'
-  },
-}));
+
 const foro = () =>{
     return(
         <div>
@@ -39,10 +30,27 @@ const foro = () =>{
             variant="filled"
             placeholder="Buscar en el foro..." 
             className="Search-card"
-            
             />
+            
+            <ul className="Logo-card">
+           <img src="/assets/publicaciones.png" width={1510} height={260} />
+           </ul>
+           <button class="btn-todo" onclick="next()">Todo</button>
+           <button class="btn-av" onclick="next()">Avisos</button>
+           <button class="btn-ay" onclick="next()">Ayuda</button>
+           <button class="btn-pr" onclick="next()">Pregunta</button>
+           <button class="btn-su" onclick="next()">Sugerencia</button>
+           <button class="btn-op" onclick="next()">Objetos Perdidos</button>
+           <button class="btn-imp" onclick="next()">Importante</button>
+
+           <Link href="/foro2" passHref>
+        <button class="btn-new">
+          Nueva Publicación
+        </button>
+        </Link>
+
          </div>
          
     )
 }
-export default foro; 
+export default foro;    

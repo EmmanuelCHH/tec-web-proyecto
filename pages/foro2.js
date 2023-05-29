@@ -1,6 +1,7 @@
 import {StyleButtonCancel,StyleButtonGo} from "@/styles/styles";
 import { TextField, RadioGroup, Radio, FormControlLabel, FormControl, FormLabel} from "@mui/material";
 import SideBar from './SideBar';
+import Link from "next/link";
 const foro2 = () =>{
     return(
         <div>
@@ -32,6 +33,7 @@ const foro2 = () =>{
             rows={8}
             />
             </ul>
+            
             <ul className="Anexo-card">
             <FormControl>
       <RadioGroup
@@ -49,8 +51,9 @@ const foro2 = () =>{
       </RadioGroup>
     </FormControl>
     <img src="/assets/clip.png" width={30} height={30} className="Clip-img"/>
-    <FormLabel id="demo-radio-buttons-group-label" >    ¿Permitir respuestas en la publicación?</FormLabel>
-    <FormControl>
+    <FormLabel id="demo-radio-buttons-group-label" className="Duda-img">¿Permitir respuestas en la publicación?
+    </FormLabel>
+    <FormControl className="Pregunta-img">
     
       <RadioGroup
         aria-labelledby="demo-radio-buttons-group-label"
@@ -64,8 +67,13 @@ const foro2 = () =>{
     </FormControl>
             </ul> 
 
-
+            <Link href="/foro" passHref>
+        <button class="btn-cancel">
+          Cancelar
+        </button>
+        </Link>
            
+        <button class="btn-publicar" onclick="next()">Publicar</button>  
         </div>
     )
 }

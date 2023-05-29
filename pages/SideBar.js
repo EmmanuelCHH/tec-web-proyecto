@@ -9,7 +9,6 @@ import { AiOutlineClose } from 'react-icons/ai';
 
 const SideBar = () =>{
     const [sidebar, setSidebar]= useState(false);
-    const router = useRouter();
     const showSidebar= () => setSidebar(!sidebar);
     return(
         <>
@@ -20,6 +19,7 @@ const SideBar = () =>{
             </button>
           </div>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+          <div className="sidebar-container"> {/* Contenedor con altura fija */}
             <ul className="nav-menu-items" onClick={showSidebar}>
               <li className="navbar-toggle">
                 <button className="menu-bars">
@@ -35,6 +35,7 @@ const SideBar = () =>{
                 </li>
               ))}
             </ul>
+            </div>
           </nav>
         </IconContext.Provider>
       </>

@@ -59,6 +59,7 @@
   top: 0;
   left: -100%;
   transition: 750ms;
+  z-index: 20
 }
 .nav-menu.active{
   left: 0;
@@ -116,4 +117,8 @@ span{
   font-size: 24px;
   padding: 15px 180px 0px 180px; 
   text-align: justify;
+}
+.sidebar-container {
+  height: 100%;
+  overflow-y: auto;
 }

@@ -1,0 +1,49 @@
+
+.chat{
+    height: 200px;
+    width: 1536px;
+}
+
+.look{
+    margin-top: 18%;
+   margin-left: 3%;
+}
+
+.buscar-barra{
+    background-color: aliceblue;
+    margin-left: 0.4%;
+    z-index: 10; /* Asegura que el TextField esté por debajo de la sidebar */
+    position: relative; /* Permite ajustar la posición del TextField */
+  /* Agrega otros estilos necesarios para el TextField */
+}
+
+.mensaje-barra{
+background-color: white;
+margin-left: 3%;
+width: 720px;
+}
+
+.mensaje{
+    margin-top: -3.5%;
+    margin-left: 95%;   
+}
+
+.emoji{
+    margin-top: -3.8%;
+    margin-left: 88%;   
+}
+
+.agregar{
+    margin-top: -3.8%;
+    margin-left: 81%;   
+}
+
+.mandar{
+    margin-top: -3.8%;
+    margin-left: 67%;   
+}
+
+.recording{
+    margin-top: -3.8%;
+    margin-left: 74%;   
+}

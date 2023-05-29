@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 
 
+
 const CustomButton = styled(Button)(({ theme }) => ({
   borderRadius: theme.shape.borderRadius,
   display: 'inline-block',
@@ -43,11 +44,9 @@ const Login = () => {
 
           <TextField
             margin="normal"
-            label='Usuario'
+            label='Correo'
             variant="filled"
-            value={usernameInput}
-            onChange={e => setUsername(e.target.value)}
-            placeholder="Ingresa tu Nombre Usuario"
+            placeholder="Ingresa tu Correo Institucional"
             className="form-group"
             fullWidth
             required
@@ -56,8 +55,6 @@ const Login = () => {
             margin="normal"
             label='Contraseña'
             variant="filled"
-            value={passwordInput}
-            onChange={e => setPassword(e.target.value)}
             placeholder="Ingresa tu Contraseña"
             type="password"
             className="form-group"

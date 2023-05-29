@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import SideBar from './SideBar';
 import Link from 'next/link';
 
-import '@/components/M.css'
 const materias = () => {
   const [frameSrc, setFrameSrc] = useState(null); // Estado para almacenar la URL del frame
 
@@ -57,9 +56,7 @@ const materias = () => {
             <h2 style={{ textAlign: 'center' }}>{materia.profe}</h2>
 
           </div>
-          <Link href="/materias2">
-              <a className="details-link" onClick={() => handleClick(materia.id)}>Ver más detalles</a>
-            </Link>
+
           </div>
           
         ))}
